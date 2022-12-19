@@ -4,7 +4,109 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <title>Form</title>
   </head>
-  <body></body>
+  <body>
+    <form action="" method="post" autocomplete="on">
+      <div class="d1">
+        <label for="name">Name:</label><br /><br />
+
+        <label for="surname">Surname:</label><br /><br />
+
+        <label>Gender:</label><br /><br />
+
+        <label for="county">County:</label><br /><br /><br>
+
+        <label for="email">Email:</label><br /><br />
+
+        <label for="wsite">Personal Website:</label><br /><br />
+
+        <label for="tel">Phone Number:</label>
+      </div>
+
+      <div class="d2">
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <input type="text" id="surname" name="surname" /><br /><br />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female" />
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male" />
+        <label for="other">Other</label>
+        <input
+          type="radio"
+          id="other"
+          name="gender"
+          value="Other"
+        /><br /><br />
+
+        <select name="county" id="county">
+          <option value="empty" selected></option>
+          <option value="Esslingen">Esslingen</option>
+          <option value="Ostalbkreis">Ostalbkreis</option>
+          <option value="Rhein-Neckar-Kreis">Rhein-Neckar-Kreis</option></select
+        ><br /><br />
+
+        <input type="email" id="email" name="email" /><br /><br />
+
+        <input type="url" id="wsite" name="website" /><br /><br />
+
+        <input
+          type="tel"
+          id="tel"
+          name="tel"
+          placeholder="+00 000 0000 0000"
+        /><br /><br />
+      </div>
+
+      <div class="d3">
+        <label>Hobbies:</label><br /><br /><br /><br />
+
+        <label for="pphoto">Profile Photo:</label><br /><br /><br />
+
+        <label for="birthdate">Birthdate:</label><br /><br />
+
+        <label for="address">Address:</label>
+      </div>
+
+      <div class="d4">
+        <label for="hobby1">Football</label>
+        <input
+          type="checkbox"
+          id="hobby1"
+          name="hobby1"
+          value="Football"
+        /><br />
+        <label for="hobby2">Volleyball</label>
+        <input
+          type="checkbox"
+          id="hobby2"
+          name="hobby2"
+          value="Volleyball"
+        /><br />
+        <label for="hobby3">Basketball</label>
+        <input
+          type="checkbox"
+          id="hobby3"
+          name="hobby3"
+          value="Basketball"
+        /><br /><br />
+
+        <input type="file" id="pphoto" name="pphoto" /><br /><br />
+
+        <input type="date" id="birthdate" name="birthdate" /><br /><br />
+
+        <textarea name="address" id="" cols="30" rows="6"></textarea
+        ><br /><br />
+
+        <input
+          type="submit"
+          onclick="alert('You are now registered. Thank you!')"
+          value="Register"
+        />
+      </div>
+    </form>
+  </body>
 </html>

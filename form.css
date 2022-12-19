@@ -1,0 +1,66 @@
+form {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-left: 5%;
+  display: flex;
+  align-content: space-around;
+}
+
+.d1 {
+  flex: 15%;
+}
+
+.d2 {
+  flex: 35%;
+}
+
+.d3 {
+  flex: 15%;
+}
+
+.d4 {
+  flex: 30%;
+}
+
+input {
+  border: solid rgba(182, 182, 248, 0.637);
+  border-radius: 2px;
+}
+
+input:focus {
+  border: solid rgba(27, 27, 61, 0.76);
+  border-radius: 2px;
+}
+
+select {
+  border: solid rgba(182, 182, 248, 0.637);
+  border-radius: 2px;
+}
+
+select:focus {
+  border: solid rgba(27, 27, 61, 0.76);
+  border-radius: 2px;
+}
+
+textarea {
+  border: solid rgba(182, 182, 248, 0.637);
+  border-radius: 2px;
+}
+
+textarea:focus {
+  border: solid rgba(27, 27, 61, 0.76);
+  border-radius: 2px;
+}
+
+input[type="submit"] {
+  border: 1px;
+  border-color: black;
+  border-style: outset;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+  color: aliceblue;
+}
