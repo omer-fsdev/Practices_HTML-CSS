@@ -1,0 +1,29 @@
+body {
+  background-color: #fa8072;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: #474747;
+  display: inline-block;
+  margin: 10px;
+}
+
+.sides {
+  display: inline;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+#group7,
+#group8,
+#group9 {
+  text-align: right;
+}
