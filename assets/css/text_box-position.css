@@ -1,0 +1,48 @@
+input {
+  width: 600px;
+  height: 65px;
+}
+
+#searchbox {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+#sendbox {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+#searchbox input {
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+#sendbox input {
+  border: 1px solid #000;
+  border-radius: 40px;
+  background-color: #4e4e4e;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 40px;
+  vertical-align: middle;
+  position: relative;
+  right: 65px;
+}
+
+#sendbox input:last-child {
+  background-color: #ffc400;
+  width: 130px;
+  height: 68.5px;
+  position: relative;
+  right: 124px;
+  top: 3px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #363636;
+}
