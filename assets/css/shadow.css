@@ -1,0 +1,45 @@
+body {
+  background-color: #ddd;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  font-size: 7em;
+  text-align: center;
+  padding: 75px 25px;
+}
+
+#box1 {
+  background-color: #00ffff;
+  text-shadow: 2px 2px 4px #333;
+  color: #fff;
+}
+
+#box2 {
+  background-color: #222;
+  text-shadow: 2px 2px 4px #555555cc;
+}
+
+#box3 {
+  background-color: #ffffff;
+  text-shadow: 2px 2px 2px #fff, 5px 5px 2px #b9b9b9;
+}
+
+#box4 {
+  background-color: #f5f5dc;
+  color: #fff;
+  text-shadow: 0px 8px 3px #79797952, 0px 16px 3px #80808081;
+}
+
+#box5 {
+  background-color: #517737;
+  text-shadow: 2px 4px 6px #302b2ba1, -2px -4px 6px #cccccc3f;
+}
+
+#box6 {
+  background-color: #00ffff;
+  color: #fff;
+  text-shadow: -7px 7px 2px #00dbdbad, -14px 14px 2px #01a5a588,
+    -21px 21px 2px #007a7a73;
+}
