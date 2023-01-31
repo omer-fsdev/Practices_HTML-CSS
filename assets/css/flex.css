@@ -1,0 +1,62 @@
+@import "variable.css";
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+#left {
+  background-color: var(--gri-8);
+  height: 55px;
+  align-items: center;
+  box-shadow: var(--acik-golge);
+}
+
+#middle {
+  background-color: var(--mavi-10);
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  box-shadow: var(--koyu-golge);
+}
+
+#right {
+  background-color: var(--mavi-6);
+  font-size: 40px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+  box-shadow: var(--koyu-golge);
+}
+
+#middle a {
+  text-decoration: none;
+  color: var(--gri-2);
+  font-family: var(--ff-montserrat);
+  font-weight: 800;
+  padding: 27px 19px;
+  border-radius: 10px;
+}
+
+#right a {
+  color: var(--gri-1);
+}
+
+#middle a:hover {
+  background-color: var(--mavi-6);
+  color: var(--gri-10);
+  transition: background-color 1s, color 1s;
+}
+
+#right a:hover {
+  transform: scale(1.6);
+  padding: 9px;
+  transition: transform 1s, padding 1s;
+}
