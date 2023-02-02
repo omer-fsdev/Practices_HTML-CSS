@@ -37,6 +37,8 @@ input {
   border: 1px solid #0002;
   margin: 30px auto;
   font-size: 16px;
+  padding-left: 40px;
+  outline: none;
 }
 
 #search {
